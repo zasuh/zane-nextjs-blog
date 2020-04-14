@@ -3,12 +3,8 @@ title: "About me"
 date: "1995-06-27T06:41:32.169Z"
 ---
 
-## Hello ##
-
-### Me in 10 seconds ###
 Front end developer with a liking for React, CSS-in-JS and TypeScript. Also love movies, games, an assortment of metal music subgenres and of course my girlfriend 💙
 
-### Me in 10 minutes or more ###
 ### Development
 Started learning how to write code in late 2014 as I was "finding" myself and what I want to do with my life. HTML, CSS and JS were my first choices and are still the corner stones of what I develop in today. I have since started learning and implementing more TypeScript and Node into my knowledge with various JS and CSS frameworks, libraries and tools along the way. Below you can see a full list along with my current skill level (as of December 2019).
 

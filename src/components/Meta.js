@@ -179,6 +179,7 @@ export default function Meta(props) {
                     font-size: 1.7rem;
                     letter-spacing: -0.75px;
                     line-height: 1.2;
+                    color: orange;
                     }
 
                     h3 {
@@ -193,7 +194,7 @@ export default function Meta(props) {
                     font-size: 1.2rem;
                     letter-spacing: -0.5px;
                     line-height: 1.5;
-                    color: #464646;
+                    color: white;
                     }
 
                     @media (min-width: 1280px) {

@@ -19,14 +19,14 @@ const BlogList = ({ allBlogs }) => {
             <Link key={post.slug} href={{ pathname: `/blog/${post.slug}` }}>
               <a>
                 <li>
-                  <div className="hero_image">
+                  {/* <div className="hero_image">
                     <img
                       src={post.frontmatter.hero_image}
                       alt={post.frontmatter.hero_image}
                     />
-                  </div>
+                  </div> */}
                   <div className="blog__info">
-                    <h2>{post.frontmatter.title}</h2>
+                    <h2 style={{ color: '#FBBA72' }}>{post.frontmatter.title}</h2>
                     <h3> {reformatDate(post.frontmatter.date)}</h3>
                     <p>
                       <ReactMarkdown
@@ -74,10 +74,9 @@ const BlogList = ({ allBlogs }) => {
             flex-direction: column;
             justify-content: center;
             padding: 1.5rem 1.25rem;
-            transform: translateX(0px);
-            transition: transform 0.3s ease-in;
-            border-bottom: 1px solid #ebebeb;
-            color: white;
+            color: #FBBA72;
+            border: 1px solid orange;
+            margin-bottom: 20px;
           }
           .blog__info h2,
           .blog__info h3,
@@ -97,13 +96,15 @@ const BlogList = ({ allBlogs }) => {
           }
           h2 {
             margin-bottom: 0.5rem;
+            color: #FBBA72;
           }
           h3 {
             margin-bottom: 1rem;
+            color: #FBBA72;
           }
           p {
             max-width: 900px;
-            color: white;
+            color: #FBBA72;
           }
           @media (min-width: 768px) {
             li {
@@ -121,7 +122,7 @@ const BlogList = ({ allBlogs }) => {
               min-height: 0;
             }
             .blog__info {
-              min-width: 70%;
+              min-width: 1000px;
             }
           }
           @media (min-width: 1280px) {

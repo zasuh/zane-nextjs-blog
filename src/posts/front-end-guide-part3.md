@@ -3,13 +3,6 @@ title: Beginner to Beginner - Part 3 - Advice for job searching
 date: "2018-12-26T22:40:32.169Z"
 ---
 
-Welcome to part 3 of my blog series! :D
-
-Check out part 1 [HERE](http://zane-blog.surge.sh/front-end-guide/) and part 2 [HERE](http://zane-blog.surge.sh/front-end-guide-part2/)
-
----
-## ROAD TO GETTING A JOB ##
-
 Welcome! By now you should have learned a lot of stuff regarding actual programming and have made some personal projects.
 Now comes the other side of working as a developer. Most of the time when people think "Programmer" they think we sit
 behind computers all day. That's about 90% true, but so do lawyers, doctors, accountants and most people working today.

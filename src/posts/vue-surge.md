@@ -2,9 +2,6 @@
 title: Hosting a VueJS app with Surge.sh
 date: "2018-12-11T22:40:32.169Z"
 ---
-![Surge.sh](surge.png)
-
-[Originally posted on Medium](https://medium.com/@zanethedev/hosting-a-vuejs-app-with-surge-sh-27c4513fdda0)
 
 As a newbie web developer you get easily overwhelmed with the abundance of front-end frameworks.
 Everyone kept telling me to just learn React since it’s the most popular right now and to forget Angular.

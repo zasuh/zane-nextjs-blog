@@ -28,8 +28,6 @@ so much more.
 * **JS** is the interactivity component. This is the main thing you need to learn, the swiss army knife of web dev. If you
 can learn JS you can learn anything. It is the programming language of the web.
 
-![HTML, CSS and JS](1.PNG)
-
 ---
 
 There are also things that aren't really programming or development specific, but are necessary to be productive in todays

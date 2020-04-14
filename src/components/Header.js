@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header(props) {
   return (
     <header className="header">
-      <nav
+      <div
         className="nav"
         role="navigation"
         aria-label="main navigation"
@@ -11,11 +11,28 @@ export default function Header(props) {
         <Link href="/">
           <h1>{props.siteTitle}</h1>
         </Link>
-      </nav>
+        <p style={{marginTop: '10px'}}>Slovenian based web developer.</p>
+        <ul>
+          <li>
+            <a href="https://twitter.com/zasuh_">Twitter</a>
+          </li>
+          <li>
+            <a href="https://github.com/zasuh">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/zasuhadolnik/">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
       <style jsx>
         {`
+          ul li {
+            display: inline;
+            margin-right: 20px;
+          }
           h1 {
             margin-bottom: 0;
+            color: #FBBA72;
           }
           h1:hover {
             cursor: pointer;
@@ -39,7 +56,6 @@ export default function Header(props) {
               padding: 2rem;
               width: 30vw;
               height: 100%;
-              border-right: 1px solid #ebebeb;
               border-bottom: none;
               flex-direction: column;
               align-items: flex-start;

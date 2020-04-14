@@ -19,11 +19,12 @@ export default function Layout(props) {
           display: flex;
           flex-direction: column;
           min-height: 100vh;
-          background: black;
+          background: #1D3557;
           color: white;
         }
         .content {
           flex-grow: 1;
+          color: white;
         }
         @media (min-width: 768px) {
           .layout {

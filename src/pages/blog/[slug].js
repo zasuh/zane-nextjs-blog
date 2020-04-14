@@ -35,7 +35,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         {`
           .blog h1 {
             margin-bottom: 0.7rem;
-            color: white;
+            color: #FBBA72;
           }
           .blog__hero {
             min-height: 300px;
@@ -59,11 +59,11 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
           }
           .blog__info h1 {
             margin-bottom: 0.66rem;
-            color: white;
+            color: #FBBA72;
           }
           .blog__info h3 {
             margin-bottom: 0;
-            color: white;
+            color: #FBBA72;
           }
           .blog__body {
             width: 100%;

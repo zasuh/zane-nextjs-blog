@@ -3,14 +3,6 @@ title: Beginner to Beginner - Part 2 - Making and hosting projects
 date: "2018-12-25T22:40:32.169Z"
 ---
 
-Welcome to part 2 of my blog series!
-
-Check out part 1 [HERE](http://zane-blog.surge.sh/front-end-guide/).
-
----
-
-### PROJECTS TO BUILD ###
-
 This part is going to focus on just some recommendations about building front-end web dev projects. They are going
 to scale as the list goes down.
 
