@@ -22,12 +22,6 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
   return (
     <Layout siteTitle={siteTitle}>
       <article className="blog">
-        <figure className="blog__hero">
-          <img
-            src={frontmatter.hero_image}
-            alt={`blog_hero_${frontmatter.title}`}
-          />
-        </figure>
         <div className="blog__info">
           <h1>{frontmatter.title}</h1>
           <h3>{reformatDate(frontmatter.date)}</h3>
@@ -35,12 +29,13 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         <div className="blog__body">
           <ReactMarkdown source={markdownBody} />
         </div>
-        <h2 className="blog__footer">Written By: {frontmatter.author}</h2>
+        <h2 className="blog__footer">Written By: Žane Suhadolnik</h2>
       </article>
       <style jsx>
         {`
           .blog h1 {
             margin-bottom: 0.7rem;
+            color: white;
           }
           .blog__hero {
             min-height: 300px;
@@ -64,9 +59,11 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
           }
           .blog__info h1 {
             margin-bottom: 0.66rem;
+            color: white;
           }
           .blog__info h3 {
             margin-bottom: 0;
+            color: white;
           }
           .blog__body {
             width: 100%;
@@ -75,6 +72,7 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            color: white;
           }
           .blog__body a {
             padding-bottom: 1.5rem;
@@ -84,9 +82,11 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
           }
           .blog__body h1 h2 h3 h4 h5 h6 p {
             font-weight: normal;
+            color: white;
           }
           .blog__body p {
             color: inherit;
+            color: white;
           }
           .blog__body ul {
             list-style: initial;

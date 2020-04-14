@@ -54,6 +54,7 @@ const BlogList = ({ allBlogs }) => {
           a:hover li .blog__info p {
             transform: translateX(10px);
             transition: transform 0.5s ease-out;
+            color: white;
           }
           .hero_image {
             width: 100%;
@@ -76,12 +77,14 @@ const BlogList = ({ allBlogs }) => {
             transform: translateX(0px);
             transition: transform 0.3s ease-in;
             border-bottom: 1px solid #ebebeb;
+            color: white;
           }
           .blog__info h2,
           .blog__info h3,
           .blog__info p {
             transform: translateX(0px);
             transition: transform 0.5s ease-out;
+            color: white;
           }
           li {
             opacity: inherit;
@@ -90,6 +93,7 @@ const BlogList = ({ allBlogs }) => {
             flex-direction: column;
             min-height: 38vh;
             margin-bottom: 0;
+            color: white;
           }
           h2 {
             margin-bottom: 0.5rem;
@@ -99,6 +103,7 @@ const BlogList = ({ allBlogs }) => {
           }
           p {
             max-width: 900px;
+            color: white;
           }
           @media (min-width: 768px) {
             li {

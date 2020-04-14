@@ -19,6 +19,8 @@ export default function Layout(props) {
           display: flex;
           flex-direction: column;
           min-height: 100vh;
+          background: black;
+          color: white;
         }
         .content {
           flex-grow: 1;
